@@ -1,0 +1,115 @@
+*{
+      margin: 0;
+      box-sizing: border-box;
+      padding: 0;
+      
+}
+.header{
+      height: 100vh;
+      overflow: hidden;
+}
+.bg-vid{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      min-height: 100%;
+      min-width: 100%;
+}
+.menu { 
+      padding:20px;
+      background: rgba(0, 0, 0,0.5);
+      position: absolute;
+      width: 100%;
+      top: 0;
+}
+.menu ul li{
+      float: right;
+      list-style: none;
+      letter-spacing: 2px;
+      font-size: 23px;
+      color: rgb(255, 255, 255);
+      padding:1px 20px;
+      transition-property: transform .15s;
+}
+.menu ul li .dropdown-content{
+      display:none;
+      position: absolute;
+      background-color:rgba(0, 0, 0,0.1);
+      padding: 10px;
+      border-radius: 0 0 4px 6px;
+}
+.menu ul li:hover{
+      color: aquamarine;
+      transform :scale(1.1);
+      
+}
+
+.menu ul li:hover .dropdown-content{
+      display: block;
+      cursor: pointer;
+
+}
+.menu ul li .dropdown-content li{
+      float: left;
+      padding: 8px 12px;
+      width:120px;
+}
+.menu ul li .dropdown-content li:hover{
+      background-color: whitesmoke;
+      color: black;
+      transform :scale(1.0);
+}
+.menu ul li .dropdown-content li a{
+      text-decoration: none;
+}
+.menu ul li .dropdown-content li a:hover{
+      color: black;
+}
+header .menu a{
+      text-decoration: none;
+      color: white;
+}
+.main-content{
+      position: absolute;
+      top: 50%;
+      left: 5%;
+      font-weight: bolder;
+      color:white;
+
+}
+.main-content .top{
+      font-size: 70px;
+}
+.main-content h2{
+      font-size: 30px;
+}
+.btn{
+      padding: 10px;
+      border-radius: 15px;
+      border-color: transparent;
+      margin-top: 30px;
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      background-color: rgb(255, 228, 198);
+      position: absolute;
+      left:15%;
+      transition-property:transform  .15s;
+
+}
+.btn:hover{
+      background-color: white;
+      cursor: pointer;
+      transform :scale(1.1);
+
+}
+.btn a{
+      text-decoration: none;
+      color: black;
+}
+.bot{
+      min-width: 200px;
+       width: 50%; 
+       min-height: 200px;
+}
