@@ -103,7 +103,7 @@ header .menu a{
       color: black;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:767px){
 body{
       font-size: 2rem;
       background-image: url("https://5.imimg.com/data5/SELLER/Default/2022/1/NY/FG/RC/61869189/pexels-photo-4167541-500x500.jpeg");
