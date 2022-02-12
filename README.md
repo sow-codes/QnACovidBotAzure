@@ -1,1 +1,1 @@
-# TourismBotAzure
+# QnACovidBotAzure
