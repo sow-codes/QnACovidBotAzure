@@ -88,17 +88,48 @@ header .menu a{
       font-family: Georgia, 'Times New Roman', Times, serif;
       letter-spacing: 1px;
       text-transform: uppercase;
-      background-color: rgb(255, 228, 198);
+      background-color: white;
       position: absolute;
       left:15%;
       transition-property:transform  .15s;
 }
 .btn:hover{
-      background-color: white;
+      background-color: rgb(255, 206, 167);
       cursor: pointer;
       transform :scale(1.1);
 }
 .btn a{
       text-decoration: none;
       color: black;
+}
+
+@media screen and (max-width:480px){
+body{
+      font-size: 2rem;
+      background-image: url("https://5.imimg.com/data5/SELLER/Default/2022/1/NY/FG/RC/61869189/pexels-photo-4167541-500x500.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.bg-vid{
+      display: none;
+}
+.menu ul li{
+      float: left;
+}
+header .menu a {
+      color: white;
+}
+
+.main-content{
+      color: black;
+}
+.main-content{
+      top:40%;
+}
+.main-content .top{
+      color: rgb(67, 68, 68);
+}
+.home{
+      display: none;
+}
 }
