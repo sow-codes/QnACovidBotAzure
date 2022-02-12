@@ -2,7 +2,6 @@
       margin: 0;
       box-sizing: border-box;
       padding: 0;
-      
 }
 .header{
       height: 100vh;
@@ -40,14 +39,11 @@
 }
 .menu ul li:hover{
       color: aquamarine;
-      transform :scale(1.1);
-      
+      transform :scale(1.1); 
 }
-
 .menu ul li:hover .dropdown-content{
       display: block;
       cursor: pointer;
-
 }
 .menu ul li .dropdown-content li{
       float: left;
@@ -75,7 +71,6 @@ header .menu a{
       left: 5%;
       font-weight: bolder;
       color:white;
-
 }
 .main-content .top{
       font-size: 70px;
@@ -90,26 +85,20 @@ header .menu a{
       margin-top: 30px;
       font-size: 20px;
       font-weight: bold;
+      font-family: Georgia, 'Times New Roman', Times, serif;
       letter-spacing: 1px;
       text-transform: uppercase;
       background-color: rgb(255, 228, 198);
       position: absolute;
       left:15%;
       transition-property:transform  .15s;
-
 }
 .btn:hover{
       background-color: white;
       cursor: pointer;
       transform :scale(1.1);
-
 }
 .btn a{
       text-decoration: none;
       color: black;
-}
-.bot{
-      min-width: 200px;
-       width: 50%; 
-       min-height: 200px;
 }
