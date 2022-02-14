@@ -3,16 +3,17 @@
 
 This project is about the website which is made for the purpose of Covid update to users. 
 
-Problem statement:
+Problem statement: 
 From the year 2019, people all around the world facing difficulties with Covid19 virus. But People were unable to get updates about Covid19 to keep themselves safe from crisis. For this issue, I have developed a website with bot services which can clarify all the queries about Covid19.
 
 Project Description:
-The core idea of this project is to clarify the queries about Covid19. People can get their queries clarified within minutes using this website. This website is integrated with bot service. This bot is developed with QnAmaker which is one of the services of Microsoft Azure. Users can easily interact with bot via chat. Using this bot, user can get instant information about Covid19 and Vaccine.
+The core idea of this project is to clarify the queries about Covid19. 
+People can get their queries clarified within minutes using this website. This website is integrated with bot service. This bot is developed with QnAmaker which is one of the services of Microsoft Azure. Users can easily interact with bot via chat. Using this bot, user can get instant information about Covid19 and Vaccine.
 
 
 Azure Services I used in this project:
 1.QnAMaker
-2.Web App Bot
+2.Azure Bot Service
 3.Static Web Apps
 
 For creating Question and Answer pair, I have used QnAMaker. I integreted QnAMAker with Web App bot. Then for hosting I have used Static Web App Service.
@@ -34,7 +35,7 @@ Back-end routing rules enabling full control over the content and routes you ser
 Here is the project link: https://black-rock-08fa16610.1.azurestaticapps.net
 
 Here is the youtube demo video link:
-Generated staging versions powered by pull requests enabling preview versions of your site before publishing.
-![Screenshot (118)](https://user-images.githubusercontent.com/83051313/153891643-0559b33e-4eae-478d-ab4b-43d989b0ce74.png)
+
+![Screenshot (118)](https://user-images.githubusercontent.com/83051313/153893684-1c12c812-838e-404b-8ddf-ae90c78ad88b.png)
 
 
