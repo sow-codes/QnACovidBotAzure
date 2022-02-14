@@ -14,6 +14,7 @@ People can get their queries clarified within minutes using this website. This w
 
 
 Azure Services I used in this project:
+
 1.QnAMaker
 
 2.Azure Bot Service
@@ -60,18 +61,11 @@ Following are some key features of Azure Static Web Apps that made me choose thi
 
 6.Custom domains to provide branded customizations to your app.
 
-7.Seamless security model with a reverse-proxy when calling APIs, which requires no CORS configuration.
-
-8.Authentication provider integrations with Azure Active Directory, GitHub, and Twitter.
-
-9.Customizable authorization role definition and assignments.
-
-10.Back-end routing rules enabling full control over the content and routes you serve.
 
 
 **Here is the project link**: https://black-rock-08fa16610.1.azurestaticapps.net
 
-**Here is the youtube demo video link:**
+**Here is the youtube demo video link:** https://youtu.be/7UujCTQen6Y
 
 ![Screenshot (118)](https://user-images.githubusercontent.com/83051313/153893684-1c12c812-838e-404b-8ddf-ae90c78ad88b.png)
 
